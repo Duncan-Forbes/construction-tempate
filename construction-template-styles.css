@@ -1,0 +1,277 @@
+/********************************
+
+
+
+~~~~~~~~CONSTRUCTION TEMPLATE STYLES~~~~~~~~
+
+
+
+*********************************/
+
+
+
+
+
+
+
+
+
+
+#construction-template-hm-hero {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  background-size: cover!important;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+}
+
+#construction-template-hm-hero::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#construction-template-hm-hero .hero-content {
+  position: absolute;
+  bottom: 5em;
+  left: 1em;
+  text-align: left;
+  z-index: 1;
+}
+
+#construction-template-hm-hero .hero-heading {
+  font-family: 'Anton', sans-serif;
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+}
+
+#construction-template-hm-hero .hero-sub-text {
+  font-size: 28px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+#construction-template-hm-hero .btn {
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 12px;
+}
+
+#construction-template-hm-hero .btn.btn-learn {
+  background-color: #fff;
+  border: solid 2px #fff;
+  margin-right: 20px;
+}
+
+#construction-template-hm-hero .btn.btn-learn:hover {
+  background-color: #fff0;
+  color: #fff;
+}
+
+#construction-template-hm-hero .btn.btn-contact {
+  border: solid 2px #fff;
+  color: #fff;
+}
+
+#construction-template-hm-hero .btn.btn-contact:hover {
+  background-color: #fff;
+  color: black;
+}
+
+
+#construction-template-scrolling-numbers {
+  position: relative;
+  width: 100%;
+  height: auto;
+  font-family: 'Lato', sans-serif;
+  overflow: hidden;
+}
+
+#construction-template-scrolling-numbers .work-numbers {
+  text-align: center;
+  margin: 2em 0 4em;
+  padding: 1em;
+}
+
+#construction-template-scrolling-numbers .work-numbers span {
+  font-size: 62px;
+}
+
+#construction-template-scrolling-numbers .work-numbers p {
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  white-space: nowrap;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+
+#construction-template-our-work {
+  position: relative;
+  width: 100%;
+  height: auto;
+  font-family: 'Lato', sans-serif;
+  background-size: cover!important;
+  background-attachment: fixed!important;
+  padding: 4em 0;
+}
+
+#construction-template-our-work::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.65);
+}
+
+#construction-template-our-work .our-work-card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: auto;
+  max-height: 250px;
+  text-align: center;
+  background-color: #fff;
+  padding: 2em 0;
+  border: solid 1px black;
+  border-radius: 5px;
+}
+
+#construction-template-our-work .our-work-card span {
+  font-size: 50px;
+  margin: 14px;
+  display: flex;
+  align-self: center;
+}
+
+#construction-template-our-work .our-work-card p {
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+
+
+#construction-template-about-us {
+  width: 100%;
+  padding: 1em 0 4em;
+  font-family: 'Lato', sans-serif;
+}
+
+#construction-template-about-us h2 {
+  text-align: center;
+  padding: 2em;
+}
+
+
+
+
+#construction-template-portfolio {
+  width: 100%;
+  padding: 1em 0 4em;
+  font-family: 'Lato', sans-serif;
+
+}
+
+#construction-template-portfolio .slider-img {
+  height: 400px;
+}
+
+
+#construction-template-contact {
+  padding: 1em 0 4em;
+  font-family: 'Lato', sans-serif;
+  background: linear-gradient(to top, #7373735c, #fff0);
+}
+
+#construction-template-contact h2 {
+  text-align: center;
+  padding: 0 0 2em;
+}
+
+#construction-template-contact input {
+  width: 100%;
+  padding: 1em;
+  margin: 0 0 1em;
+}
+
+#construction-template-contact textarea {
+  width: 100%;
+  padding: 1em;
+  height: 200px;
+}
+
+#construction-template-contact .contact-submit {
+  margin: 14px;
+  position: relative;
+  padding: 1em;
+  bottom: 0em;
+  right: 0;
+  background: rgba(56, 92, 123, 0.64);
+  border-radius: 5px;
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+#construction-template-contact .contact-submit:hover {
+  background: rgba(56, 92, 123, 0.84);
+}
+
+#construction-template-contact .contact-info {
+  font-size: 20px;
+}
+
+#construction-template-contact .contact-info span {
+  font-size: 40px;
+  margin: 0 1em 1em 0;
+}
+
+@media only screen and  (max-width: 992px) {
+
+  #construction-template-our-work .our-work-card {
+    margin-bottom: 1em;
+  }
+
+}
+
+@media only screen and  (max-width: 768px) {
+
+  #construction-template-hm-hero .hero-content {
+    text-align: center;
+  }
+
+  #construction-template-hm-hero .hero-heading {
+    font-size: 8vw;
+    letter-spacing: 5px;
+  }
+
+  #construction-template-hm-hero .hero-sub-text {
+    font-size: 5vw;
+    letter-spacing: 1px;
+  }
+
+  #construction-template-hm-hero .btn {
+    padding: 7px;
+  }
+
+  #construction-template-hm-hero .btn.btn-learn {
+    margin-right: 0;
+  }
+
+  #construction-template-portfolio .slider-img img {
+    height: 100%;
+  }
+
+}
